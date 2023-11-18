@@ -123,7 +123,7 @@ function getAngleBetweenVectors(x1, y1, x2, y2) {
  *     0     => 0
  */
 function getLastDigit(value) {
-return value % 10;
+  return value % 10;
 }
 
 /**
