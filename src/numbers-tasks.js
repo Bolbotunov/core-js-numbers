@@ -632,7 +632,7 @@ function getHypotenuse(a, b) {
  */
 function getCountOfOddNumbers(number) {
   let odds = 0;
-  for (let i = 1; i <= number; i += 1) {
+  for (let i = 1; i <= Math.abs(number); i += 1) {
     if (i % 2 !== 0) {
       odds += 1;
     }
